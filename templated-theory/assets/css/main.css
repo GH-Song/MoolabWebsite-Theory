@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #5385c1;
+		color: #002629/*color changed*/;
 		text-decoration: underline;
 	}
 
@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: #002629/*color changed*/;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1805,8 +1805,8 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
-			color: #bacee6;
+			background: #002629/*color changed*/;
+			color: #fdfddd;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1814,7 +1814,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #bacee6;
+				color: #fbfbfb;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -2028,8 +2028,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #002629/*color changed*/;
+			box-shadow: 0 0 0 1px #002629/*color changed*/;
 		}
 
 	.select-wrapper {
@@ -2139,8 +2139,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #002629/*color changed*/;
+			box-shadow: 0 0 0 1px #002629/*color changed*/;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2660,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5385c1;
+			background-color: #002629/*color changed*/;
 			color: #ffffff !important;
 		}
 
@@ -2716,7 +2716,7 @@
 	}
 
 		.subpage #header {
-			background: #5385c1;
+			background: #002629/*color changed*/;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2855,7 +2855,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #5385c1;
+		background: #002629/*color changed*/;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2940,7 +2940,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		border-top: 0.5em solid #002629/*color changed*/;
 	}
 
 		#banner h1 {
