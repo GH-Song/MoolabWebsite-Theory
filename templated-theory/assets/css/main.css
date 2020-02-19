@@ -1651,6 +1651,7 @@
 	}
 
 	p {
+		font-size: 1.2em;
 		margin: 0 0 2em 0;
 	}
 
@@ -1668,15 +1669,17 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.7em;
+		font-weight: 500;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.3em;
+		font-weight: 400;
 	}
 
 	h5 {
@@ -1776,7 +1779,9 @@
 /* Section/Article */
 
 	section.special, article.special {
+		/* Research 부분 */
 		text-align: center;
+		color: #888888;
 	}
 
 		section.special article, article.special article {
@@ -1805,8 +1810,8 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #002629/*color changed*/;
-			color: #fdfddd;
+			background: #002629/*color changed, People 배경색*/;
+			color: #fdfdad;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1817,8 +1822,16 @@
 				color: #fbfbfb;
 			}
 
-			section.wrapper.style1 h3, article.wrapper.style1 h3 {
+			/*이름 글씨*/
+			section.wrapper.style1 h4, article.wrapper.style1 h4 {
 				color: #FFF;
+			}
+
+			/*이름 글씨*/
+			section.wrapper.style1 h5, article.wrapper.style1 h5 {
+				font-size : 0.8em;
+				font-weight: 600;
+				color: #fdfdad;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -2258,6 +2271,10 @@
 
 		.image.round img {
 			border-radius: 100%;
+		}
+
+		.image.semiround img {
+			border-radius: 5%;
 		}
 
 		.image.left {
@@ -2940,12 +2957,12 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #002629/*color changed*/;
+		border-top: 0.5em solid #000000/*color changed*/;
 	}
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 100;
+			font-weight: 300;
 			color: #fff;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
@@ -2953,8 +2970,8 @@
 		}
 
 		#banner p {
-			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			font-size: 1.8em;
+			color: rgba(210, 255, 255, 0.67);
 			margin-bottom: 1.75em;
 		}
 
