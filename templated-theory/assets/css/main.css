@@ -1612,7 +1612,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1620,7 +1620,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1628,7 +1628,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1772,7 +1772,7 @@
 		@media screen and (max-width: 480px) {
 
 			.inner {
-				max-width: 85%;
+				max-width: 90%;
 			}
 
 		}
@@ -1853,7 +1853,7 @@
 			}
 
 				section.wrapper header h2, article.wrapper header h2 {
-					font-size: 2em;
+					font-size: 1.5em;
 				}
 
 				section.wrapper header p, article.wrapper header p {
