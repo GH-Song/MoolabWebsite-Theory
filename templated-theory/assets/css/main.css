@@ -1584,12 +1584,13 @@
 
 /* Type */
 
+/* home화면 research 내용*/
 	body, input, select, textarea {
 		color: #9a9a9a;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-size: 13pt;
+		font-size: 11pt;
 		font-weight: 300;
-		line-height: 1.65;
+		line-height: 1.3;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1736,11 +1737,11 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px #dbdbdb;
-		margin: 2em 0;
+		margin: 1em 0;
 	}
 
 		hr.major {
-			margin: 3em 0;
+			margin: 1em 0;
 		}
 
 	.align-left {
@@ -1781,28 +1782,31 @@
 	section.special, article.special {
 		/* Research 부분 */
 		text-align: center;
-		color: #888888;
+		color: #555555;
 	}
 
 		section.special article, article.special article {
 			text-align: left;
 		}
 
+	/*Research 바로 위 여백*/
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 2em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
+			margin-bottom: 3em;
 		}
-
+			/*research 크기*/
 			section.wrapper header h2, article.wrapper header h2 {
-				font-size: 2.75em;
-				margin: 0 0 .5em 0;
+				font-size: 2.0em;
+				font-weight: 505;
+				margin: 0 0 0.8em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
-				font-size: 1em;
+				color: #555555;
+				font-size: 1.15em;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -2729,26 +2733,26 @@
 /* Header */
 
 	.subpage {
-		padding-top: 44px;
+		padding-top: 25px;
 	}
 
 		.subpage #header {
 			background: #002629/*color changed*/;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 25px;
+			line-height: 25px;
 			position: fixed;
 		}
 
 	#header {
 		color: #d4e0ef;
 		cursor: default;
-		height: 3.25em;
+		height: 2em;
 		left: 0;
-		line-height: 3.25em;
+		line-height: 2em;
 		position: absolute;
 		text-align: right;
-		top: 4em;
+		top: 0.5em;
 		width: 100%;
 		z-index: 10001;
 	}
@@ -2759,7 +2763,7 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+			color: #ddd;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
@@ -2769,7 +2773,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 0.9em;
 		}
 
 		#header a {
@@ -2823,9 +2827,9 @@
 	@media screen and (max-width: 980px) {
 
 		#header {
-			top: 3em;
-			height: 44px;
-			line-height: 44px;
+			top: 0.5em;
+			height: 25px;
+			line-height: 25px;
 		}
 
 	}
@@ -2833,7 +2837,7 @@
 	@media screen and (max-width: 736px) {
 
 		#header {
-			top: 2em;
+			top: 0.5em;
 		}
 
 	}
@@ -2841,7 +2845,7 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
-			top: 1em;
+			top: 0.5em;
 			min-width: 320px;
 		}
 
@@ -2950,7 +2954,7 @@
 /* Banner */
 
 	#banner {
-		padding: 12em 0 10em 0;
+		padding: 3em 0 0.5em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
@@ -2961,18 +2965,18 @@
 	}
 
 		#banner h1 {
-			font-size: 3.5em;
+			font-size: 2.9em;
 			font-weight: 300;
 			color: #fff;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0.2em 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner p {
-			font-size: 1.8em;
+			font-size: 1.2em;
 			color: rgba(210, 255, 255, 0.67);
-			margin-bottom: 1.75em;
+			margin-bottom: 0.8em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -2986,7 +2990,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 10em 2em 8em 2em;
+				padding: 3em 2em 0.5em 2em;
 			}
 
 		}
@@ -3002,7 +3006,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 8em 1.5em 6em 1.5em;
+				padding: 3em 1.5em 0.5em 1.5em;
 			}
 
 				#banner h1 {
@@ -3018,7 +3022,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 1.5em 4em 1.5em;
+				padding: 3em 1.5em 0.5em 1.5em;
 			}
 
 		}
