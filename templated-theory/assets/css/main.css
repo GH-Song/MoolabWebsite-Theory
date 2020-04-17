@@ -2954,11 +2954,7 @@
 /* Banner */
 
 	#banner {
-<<<<<<< HEAD
 		padding: 3em 0 0.5em 0;
-=======
-		padding: 9em 0 0.5em 0;
->>>>>>> 427c2b0b8f74ce3facfded40502a6ba0813e0208
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
