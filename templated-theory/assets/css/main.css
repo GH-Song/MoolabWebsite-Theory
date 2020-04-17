@@ -2958,7 +2958,7 @@
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-repeat: no-repeat;
 		text-align: center;
 		border-top: 0.5em solid #000000/*color changed*/;
@@ -2982,6 +2982,7 @@
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 			#banner {
+				padding: 3em 2em 0.5em 2em;
 				background-attachment: scroll;
 			}
 
@@ -2991,6 +2992,7 @@
 
 			#banner {
 				padding: 3em 2em 0.5em 2em;
+				background-attachment: scroll;
 			}
 
 		}
@@ -2998,6 +3000,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
+				padding: 3em 2em 0.5em 2em;
 				background-attachment: scroll;
 			}
 
