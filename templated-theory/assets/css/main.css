@@ -1813,7 +1813,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background:#143139e8/*color changed, People 배경색*/;
+			background: #002629/*color changed, People 배경색*/;
 			color: #fdfdad;
 		}
 
@@ -1835,7 +1835,7 @@
 			section.wrapper.style1 h5, article.wrapper.style1 h5 {
 				font-size : 1.0em;
 				font-weight: 501;
-				color: #fdfddd;
+				color: #fdfdad;
 			}
 
 		@media screen and (max-width: 980px) {
