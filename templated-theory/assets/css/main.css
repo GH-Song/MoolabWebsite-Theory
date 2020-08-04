@@ -1562,7 +1562,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 480px;
+			min-width: 320px;
 		}
 
 	}
@@ -1584,13 +1584,12 @@
 
 /* Type */
 
-/* home화면 research 내용*/
 	body, input, select, textarea {
 		color: #9a9a9a;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-size: 11pt;
+		font-size: 13pt;
 		font-weight: 300;
-		line-height: 1.3;
+		line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1612,7 +1611,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1620,7 +1619,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1628,13 +1627,13 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 12pt;
 			}
 
 		}
 
 	a {
-		color: #002629/*color changed*/;
+		color: #5385c1;
 		text-decoration: underline;
 	}
 
@@ -1652,12 +1651,11 @@
 	}
 
 	p {
-		font-size: 1.2em;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #002629/*color changed*/;
+		color: #5385c1;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1670,17 +1668,15 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 300;
+		font-weight: 100;
 	}
 
 	h3 {
-		font-size: 1.5em;
-		font-weight: 501;
+		font-size: 1.35em;
 	}
 
 	h4 {
-		font-size: 1.0em;
-		font-weight: 400;
+		font-size: 1.1em;
 	}
 
 	h5 {
@@ -1737,11 +1733,11 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px #dbdbdb;
-		margin: 1em 0;
+		margin: 2em 0;
 	}
 
 		hr.major {
-			margin: 1em 0;
+			margin: 3em 0;
 		}
 
 	.align-left {
@@ -1764,7 +1760,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.inner {
-				max-width: 95%;
+				max-width: 90%;
 			}
 
 		}
@@ -1772,7 +1768,7 @@
 		@media screen and (max-width: 480px) {
 
 			.inner {
-				max-width: 95%;
+				max-width: 85%;
 			}
 
 		}
@@ -1780,32 +1776,28 @@
 /* Section/Article */
 
 	section.special, article.special {
-		/* Research 부분 */
 		text-align: center;
-		color: #555555;
 	}
 
 		section.special article, article.special article {
 			text-align: left;
 		}
 
-	/*Research 바로 위 여백*/
 	section.wrapper, article.wrapper {
-		padding: 2em 0;
+		padding: 6em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 3em;
+			margin-bottom: 4em;
 		}
-			/*research 크기*/
+
 			section.wrapper header h2, article.wrapper header h2 {
-				font-weight: 505;
-				margin: 0 0 0.8em 0;
+				font-size: 2.75em;
+				margin: 0 0 .5em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
-				color: #555555;
-				font-size: 1.15em;
+				font-size: 1em;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -1813,8 +1805,8 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background:#16333b/*color changed, People 배경색*/;
-			color: #fdfdad;
+			background: #5385c1;
+			color: #bacee6;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1822,20 +1814,11 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #fbfbfb;
+				color: #bacee6;
 			}
 
-			/*이름 글씨*/
-			section.wrapper.style1 h4, article.wrapper.style1 h4 {
-				font-size : 1.1em;
+			section.wrapper.style1 h3, article.wrapper.style1 h3 {
 				color: #FFF;
-			}
-
-			/*이름 글씨*/
-			section.wrapper.style1 h5, article.wrapper.style1 h5 {
-				font-size : 1.0em;
-				font-weight: 501;
-				color: #fdfddd;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -1853,7 +1836,7 @@
 			}
 
 				section.wrapper header h2, article.wrapper header h2 {
-					font-size: 1.5em;
+					font-size: 2em;
 				}
 
 				section.wrapper header p, article.wrapper header p {
@@ -1945,10 +1928,6 @@
 			width: 21%;
 		}
 
-		.flex.flex-5 .box {
-			width: 18%;
-		}
-
 		@media screen and (max-width: 980px) {
 
 			.flex.flex-2 article {
@@ -1987,9 +1966,7 @@
 			.flex.flex-4 .box {
 				width: 47%;
 			}
-			.flex.flex-5 .box {
-				width: 47%;
-			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1997,9 +1974,7 @@
 			.flex.flex-4 .box {
 				width: 100%;
 			}
-			.flex.flex-5 .box {
-				width: 100%;
-			}
+
 		}
 
 /* Form */
@@ -2053,8 +2028,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #002629/*color changed*/;
-			box-shadow: 0 0 0 1px #002629/*color changed*/;
+			border-color: #5385c1;
+			box-shadow: 0 0 0 1px #5385c1;
 		}
 
 	.select-wrapper {
@@ -2164,8 +2139,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #002629/*color changed*/;
-			box-shadow: 0 0 0 1px #002629/*color changed*/;
+			border-color: #5385c1;
+			box-shadow: 0 0 0 1px #5385c1;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2201,13 +2176,6 @@
 		opacity: 1.0;
 	}
 
-
-	.paragraph {
-		border-bottom: solid 1px #dbdbdb;
-		margin-bottom: 2em;
-		padding: 1.5em;
-	}
-
 /* Box */
 
 	.box {
@@ -2230,23 +2198,6 @@
 
 		.box.person {
 			border: solid 1px rgba(255, 255, 255, 0.25);
-			padding: 3em 1.5em;
-		}
-
-			.box.person h3 {
-				margin: 0;
-			}
-
-			.box.person .image {
-				margin-bottom: 1em;
-			}
-
-				.box.person .image img {
-					max-width: 100%;
-				}
-
-		.box.paragraph {
-			border-bottom: solid 2px #dbdbdb;
 			padding: 3em 1.5em;
 		}
 
@@ -2309,10 +2260,6 @@
 			border-radius: 100%;
 		}
 
-		.image.semiround img {
-			border-radius: 5%;
-		}
-
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
@@ -2328,11 +2275,11 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 90%;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 90%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2601,18 +2548,16 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #16333b;
+		background-color: #5a5a5a;
 		border-radius: 0;
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-weight: 550;
-		font-size: 1.0em;
-		height: 2.0em;
-		line-height: 1.9em;
-		padding: 0 0.8em;
+		font-weight: 600;
+		height: 2.85em;
+		line-height: 2.95em;
+		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -2715,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #002629/*color changed*/;
+			background-color: #5385c1;
 			color: #ffffff !important;
 		}
 
@@ -2767,26 +2712,26 @@
 /* Header */
 
 	.subpage {
-		padding-top: 25px;
+		padding-top: 44px;
 	}
 
 		.subpage #header {
-			background: #002629/*color changed*/;
+			background: #5385c1;
 			top: 0;
-			height: 25px;
-			line-height: 25px;
+			height: 44px;
+			line-height: 44px;
 			position: fixed;
 		}
 
 	#header {
 		color: #d4e0ef;
 		cursor: default;
-		height: 2em;
+		height: 3.25em;
 		left: 0;
-		line-height: 2em;
+		line-height: 3.25em;
 		position: absolute;
 		text-align: right;
-		top: 0.5em;
+		top: 4em;
 		width: 100%;
 		z-index: 10001;
 	}
@@ -2797,7 +2742,7 @@
 		}
 
 		#header .logo {
-			color: #ddd;
+			color: #ffffff;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
@@ -2807,7 +2752,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 0.9em;
+			font-size: 1em;
 		}
 
 		#header a {
@@ -2861,9 +2806,9 @@
 	@media screen and (max-width: 980px) {
 
 		#header {
-			top: 0.5em;
-			height: 25px;
-			line-height: 25px;
+			top: 3em;
+			height: 44px;
+			line-height: 44px;
 		}
 
 	}
@@ -2871,7 +2816,7 @@
 	@media screen and (max-width: 736px) {
 
 		#header {
-			top: 0.5em;
+			top: 2em;
 		}
 
 	}
@@ -2879,8 +2824,8 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
-			top: 0.5em;
-			min-width: 480px;
+			top: 1em;
+			min-width: 320px;
 		}
 
 	}
@@ -2910,7 +2855,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #002629/*color changed*/;
+		background: #5385c1;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2988,35 +2933,34 @@
 /* Banner */
 
 	#banner {
-		padding: 3em 0 0.5em 0;
+		padding: 12em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
-		background-attachment: scroll;
+		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #000000/*color changed*/;
+		border-top: 0.5em solid #5385c1;
 	}
 
 		#banner h1 {
-			font-size: 2.7em;
-			font-weight: 300;
+			font-size: 3.5em;
+			font-weight: 100;
 			color: #fff;
 			line-height: 1em;
-			margin: 0.2em 0 0.5em 0;
+			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner p {
-			font-size: 1.2em;
-			color: rgba(210, 255, 255, 0.67);
-			margin-bottom: 0.8em;
+			font-size: 1em;
+			color: rgba(255, 255, 255, 0.55);
+			margin-bottom: 1.75em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 			#banner {
-				padding: 3em 2em 0.5em 2em;
 				background-attachment: scroll;
 			}
 
@@ -3025,8 +2969,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 3em 2em 0.5em 2em;
-				background-attachment: scroll;
+				padding: 10em 2em 8em 2em;
 			}
 
 		}
@@ -3034,7 +2977,6 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 3em 2em 0.5em 2em;
 				background-attachment: scroll;
 			}
 
@@ -3043,7 +2985,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 3em 1.5em 0.5em 1.5em;
+				padding: 8em 1.5em 6em 1.5em;
 			}
 
 				#banner h1 {
@@ -3059,7 +3001,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 3em 1.5em 0.5em 1.5em;
+				padding: 6em 1.5em 4em 1.5em;
 			}
 
 		}
@@ -3122,80 +3064,4 @@
 			text-align: center;
 		}
 
-	}
-
-
-	
-	.pop-layer .pop-container {
-	  padding: 20px 25px;
-	}
-
-	.pop-layer p.ctxt {
-	  color: #666;
-	  line-height: 25px;
-	}
-
-	.pop-layer .btn-r {
-	  width: 100%;
-	  margin: 10px 0 20px;
-	  padding-top: 10px;
-	  border-top: 1px solid #DDD;
-	  text-align: right;
-	}
-
-	.pop-layer {
-	  display: none;
-	  position: fixed;
-	  top: 50%;
-	  left: 50%;
-	  width: 410px;
-	  height: 300px;
-		margin-left: -205px; /* half of width */
-		margin-top: -150px; /* half of height */
-		overflow: auto;
-
-	  background-color: #fff;
-	  border: 5px solid #3571B5;
-	}
-
-	.dim-layer {
-	  display: none;
-	  position: fixed;
-	  top: 0%;
-	  left: -50%;
-	  width: 100%;
-	  height: 100%;
-	  z-index: 100;
-	}
-
-	.dim-layer .dimBg {
-	  position: fixed;
-	  top: 0%;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background: #000;
-	  opacity: .5;
-	  filter: alpha(opacity=50);
-	}
-
-	.dim-layer .pop-layer {
-	  display: block;
-	}
-
-	a.btn-layerClose {
-	  display: inline-block;
-	  height: 25px;
-	  padding: 0 14px 0;
-	  border: 1px solid #304a8a;
-	  background-color: #3f5a9d;
-	  font-size: 13px;
-	  color: #fff;
-	  line-height: 25px;
-	}
-
-	a.btn-layerClose:hover {
-	  border: 1px solid #091940;
-	  background-color: #1f326a;
-	  color: #fff;
 	}
