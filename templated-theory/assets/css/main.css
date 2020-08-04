@@ -1562,7 +1562,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 480px;
+			min-width: 320px;
 		}
 
 	}
@@ -1628,7 +1628,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1674,12 +1674,12 @@
 	}
 
 	h3 {
-		font-size: 1.5em;
-		font-weight: 501;
+		font-size: 1.7em;
+		font-weight: 500;
 	}
 
 	h4 {
-		font-size: 1.0em;
+		font-size: 1.3em;
 		font-weight: 400;
 	}
 
@@ -1764,7 +1764,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.inner {
-				max-width: 95%;
+				max-width: 90%;
 			}
 
 		}
@@ -1772,7 +1772,7 @@
 		@media screen and (max-width: 480px) {
 
 			.inner {
-				max-width: 95%;
+				max-width: 90%;
 			}
 
 		}
@@ -1799,6 +1799,7 @@
 		}
 			/*research 크기*/
 			section.wrapper header h2, article.wrapper header h2 {
+				font-size: 2.0em;
 				font-weight: 505;
 				margin: 0 0 0.8em 0;
 			}
@@ -2295,11 +2296,11 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 90%;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 90%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2845,7 +2846,7 @@
 
 		#header {
 			top: 0.5em;
-			min-width: 480px;
+			min-width: 320px;
 		}
 
 	}
@@ -2964,7 +2965,7 @@
 	}
 
 		#banner h1 {
-			font-size: 2.7em;
+			font-size: 2.9em;
 			font-weight: 300;
 			color: #fff;
 			line-height: 1em;
