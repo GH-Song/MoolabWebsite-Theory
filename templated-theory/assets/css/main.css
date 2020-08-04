@@ -2950,7 +2950,11 @@
 /* Banner */
 
 	#banner {
+<<<<<<< HEAD
 		padding: 12em 0 10em 0;
+=======
+		padding: 3em 0 0.5em 0;
+>>>>>>> parent of 75223d9... Merge branch 'master' of https://github.com/GH-Song/MoolabWebsite-Theory
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
