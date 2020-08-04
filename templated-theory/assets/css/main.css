@@ -1805,8 +1805,13 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
+<<<<<<< HEAD
 			background: #5385c1;
 			color: #bacee6;
+=======
+			background: #002629/*color changed*/;
+			color: #fdfddd;
+>>>>>>> parent of 39445d6... .
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -2952,7 +2957,11 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
+<<<<<<< HEAD
 		border-top: 0.5em solid #5385c1;
+=======
+		border-top: 0.5em solid #002629/*color changed*/;
+>>>>>>> parent of 39445d6... .
 	}
 
 		#banner h1 {
