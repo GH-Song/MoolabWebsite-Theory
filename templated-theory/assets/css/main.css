@@ -2952,6 +2952,7 @@
 	#banner {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		padding: 12em 0 10em 0;
 =======
 		padding: 3em 0 0.5em 0;
@@ -2959,6 +2960,9 @@
 =======
 		padding: 12em 0 10em 0;
 >>>>>>> parent of a21ba96... 상단 배너 두께 등 디자인 요소 수정
+=======
+		padding: 12em 0 10em 0;
+>>>>>>> parent of 427c2b0... 상단 배너 두께 등 디자인 요소 수정
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
